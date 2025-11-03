@@ -88,4 +88,4 @@ agent_app = GeneralPurposeAgentApplication()
 app.add_chat_completion(deployment_name="general-purpose-agent", impl=agent_app)
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=5000, host="0.0.0.0")
+    uvicorn.run(app, port=5030, host="0.0.0.0")

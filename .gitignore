@@ -4,4 +4,6 @@ __pycache__/
 .env
 data/
 core/keys.json
+core/config.json
+core-data/
 core-logs/
